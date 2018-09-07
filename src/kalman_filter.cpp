@@ -30,7 +30,6 @@ void KalmanFilter::Predict() {
 }
 
 void KalmanFilter::Update(const VectorXd &z) {
-    std::cout << "update kf" << std::endl;
     /**
        TODO:
        * update the state by using Kalman Filter equations
@@ -51,7 +50,6 @@ void KalmanFilter::Update(const VectorXd &z) {
 }
 
 void KalmanFilter::UpdateEKF(const VectorXd &z) {
-    std::cout << "update ekf" << std::endl;
   /**
   TODO:
     * update the state by using Extended Kalman Filter equations

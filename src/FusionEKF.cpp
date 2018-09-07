@@ -92,7 +92,6 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
         
     }
     else if (measurement_pack.sensor_type_ == MeasurementPackage::LASER) {
-        cout << " What" << endl;
       /**
       Initialize state.
       */
